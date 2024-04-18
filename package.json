@@ -3,6 +3,11 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "log": "jq '.compilerOptions | {paths, rootDirs}' ./packages/my-app/.svelte-kit/tsconfig.json",
+    "reset": "pnpm --filter=my-app build && pnpm run log",
+    "hijack": "touch package.json && sleep 5 && pnpm run log"
+  },
   "devDependencies": {
     "vitest": "^1.5.0"
   }
