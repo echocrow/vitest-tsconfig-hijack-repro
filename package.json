@@ -1,5 +1,5 @@
 {
-  "name": "wtf",
+  "name": "sveltekit-vitest-tsconfig-hijack",
   "type": "module",
   "version": "0.0.0",
   "private": true,

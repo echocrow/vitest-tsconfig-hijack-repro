@@ -1,3 +1,5 @@
+**[Repro moved to Stackblitz](https://stackblitz.com/edit/sveltekit-vitest-tsconfig-hijack)**
+
 ## Setup
 
 ```sh
